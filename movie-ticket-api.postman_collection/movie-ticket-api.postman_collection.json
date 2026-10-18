@@ -1,0 +1,87 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "movie-ticket-api.postman_collection",
+    "version": "1.0.0",
+    "description": ""
+  },
+  "servers": [
+    {
+      "url": "https://jsonplaceholder.typicode.com"
+    }
+  ],
+  "paths": {
+    "/users": {
+      "get": {
+        "summary": "get_all_movie",
+        "parameters": [
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "anhntm725@gmail.com"
+          }
+        ],
+        "responses": {}
+      }
+    },
+    "/posts/1": {
+      "get": {
+        "summary": "get_booking_seat",
+        "parameters": [
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "anhntm725@gmail.com"
+          }
+        ],
+        "responses": {}
+      }
+    },
+    "/comments": {
+      "get": {
+        "summary": "get_booking_time",
+        "parameters": [
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "anhntm725@gmail.com"
+          }
+        ],
+        "responses": {}
+      }
+    },
+    "/posts": {
+      "get": {
+        "summary": "get_home_data",
+        "parameters": [
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "anhntm725@gmail.com"
+          },
+          {
+            "name": "User-Agent",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            },
+            "example": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+          }
+        ],
+        "responses": {}
+      }
+    }
+  }
+}
